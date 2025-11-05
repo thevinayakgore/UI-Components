@@ -1,4 +1,4 @@
-![UI Components Banner]([banner.png])
+![UI Components Banner]([./banner.png])
 
 # 🚀 Modern UI Components
 
