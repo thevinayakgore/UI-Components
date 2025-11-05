@@ -23,35 +23,11 @@ A curated collection of beautiful, responsive, and accessible UI components buil
 
 ## 📦 Components Library
 
-### 🧩 Navigation
-- **Navbar** - Responsive navigation with mobile menu
-- **Sidebar** - Collapsible sidebar with nested menus
-- **Breadcrumbs** - Dynamic breadcrumb navigation
-- **Pagination** - Custom pagination component
-
-### 📊 Data Display
-- **Cards** - Product, profile, and feature cards
-- **Tables** - Sortable and filterable data tables
-- **Lists** - User lists, notification lists
-- **Stats** - Analytics and metric cards
-
-### 📝 Forms
-- **Search Bars** - Advanced search with filters
-- **Input Fields** - Various input types with validation
-- **Select Menus** - Custom dropdowns and multi-select
-- **File Upload** - Drag & drop file uploader
-
-### 🎪 Feedback
-- **Modals** - Various modal dialogs
-- **Toasts** - Notification toasts
-- **Loaders** - Loading spinners and skeletons
-- **Progress Bars** - Animated progress indicators
-
 ### 🎨 Layout
-- **Hero Sections** - Landing page heroes
-- **Grid Layouts** - Responsive grid systems
-- **Footers** - Multi-column footers
-- **Headers** - Page headers with actions
+- **Sections** - FAQ, 
+- **Footers** - Standard Footer,
+
+**More Components are Comming Soon...!!**
 
 ## 🚀 Getting Started
 
@@ -61,11 +37,7 @@ A curated collection of beautiful, responsive, and accessible UI components buil
 
 ### Installation
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/ui-components.git
-cd ui-components
-```
+1. **Download the .zip file of Componenst and start using it !**
 
 2. **Install dependencies**
 ```bash
@@ -88,72 +60,8 @@ pnpm dev
 4. **Open your browser**
 Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 📁 Project Structure
-
-```
-ui-components/
-├── components/          # Reusable UI components
-│   ├── ui/             # Basic UI elements
-│   ├── forms/          # Form components
-│   ├── layout/         # Layout components
-│   └── shared/         # Shared components
-├── lib/                # Utilities and configurations
-├── hooks/              # Custom React hooks
-├── styles/             # Global styles and Tailwind config
-├── public/             # Static assets
-└── app/                # Next.js app directory
-    ├── page.tsx        # Home page
-    └── components/     # Page-specific components
-```
-
-## 🎯 Usage
-
-### Importing Components
-
-```tsx
-import { Button, Card, Modal } from '@/components/ui';
-
-export default function MyPage() {
-  return (
-    <div>
-      <Button variant="primary">Click me</Button>
-      <Card>
-        <h3>Card Title</h3>
-        <p>Card content goes here</p>
-      </Card>
-    </div>
-  );
-}
-```
-
-### Customizing Components
-
-```tsx
-<Button 
-  variant="secondary"
-  size="lg"
-  className="custom-class"
-  onClick={() => console.log('Clicked!')}
->
-  Custom Button
-</Button>
-```
-
-## 🎨 Customization
-
-### Theming
-All components use CSS variables for easy theming:
-
-```css
-:root {
-  --primary: #3b82f6;
-  --secondary: #64748b;
-  --accent: #f59e0b;
-}
-```
-
 ### Styling
-Components are built with Tailwind CSS and support:
+Components are built with Tailwind CSS and support -
 - Custom color schemes
 - Dark mode
 - Responsive breakpoints
